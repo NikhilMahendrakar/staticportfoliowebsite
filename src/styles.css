@@ -1,21 +1,39 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
+*{
+  margin:0;
+  padding:0;
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
 }
+.container{
+  width: 100%;
+  height: 100vh;
+  background-attachment: #EEF7F1;
+}
+.slides{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: #EEF7F1;
+  }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
+  .box{
+    background-color: #fff; /* Box is also white, but you can change it if you prefer a different shade */
+    width: 50%;  
+    height: auto;         /* Adjust width as needed */
+    margin: 150px auto;     /* Centers the box horizontally and creates top margin */
+    padding: 20px;
+    border: 1px solid black; /* Subtle border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    border-radius: 8px;     /* Rounded corners */
+    text-align: left;  
+  }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
-}
+
+
+
+
+
+
+
